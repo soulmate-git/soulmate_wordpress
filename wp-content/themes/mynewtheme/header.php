@@ -2,15 +2,17 @@
 <html>
 <head>
 	<title>New Website</title>
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" />
+	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri(); ?>/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
+<h1>AboutMusic</h1>
 	<nav>
-	<ul>
-		<li><a href="/">Main Page</a></li>
-		<li><a href="#">Menu2</a></li>
-		<li><a href="#">Menu3</a></li>
-	</ul>
+<div class="myNav">
+		<a href="/wordpress/">News</a>
+		<a href="#">Concerts</a>
+		<a href="#">About</a>
+</div>
 	</nav>
 </header>

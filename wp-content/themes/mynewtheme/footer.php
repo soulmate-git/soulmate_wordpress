@@ -1,9 +1,9 @@
 <footer>
-	<ul>
-		<li><a href="#">First</a></li>
-		<li><a href="#">Second</a></li>
-		<li><a href="#">Third</a></li>
-	</ul>
+<div class="myFooter">
+		<a href="#">Facebook</a>
+		<a href="#">Instagram</a>
+		<a href="#">Vkontakte</a>
+</div>
 </footer>
 </body>
 </html>
