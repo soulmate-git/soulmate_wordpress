@@ -7,10 +7,10 @@
 </head>
 <body>
 <header>
-<h1>AboutMusic</h1>
+<h1><a href="/wordpress/">AboutMusic<a></h1>
 	<nav>
 <div class="myNav">
-		<a href="/wordpress/">News</a>
+		<a href="#">News</a>
 		<a href="#">Concerts</a>
 		<a href="#">About</a>
 </div>
