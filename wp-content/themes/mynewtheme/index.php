@@ -10,10 +10,14 @@ if (have_posts()) :
      	   $postLink = get_permalink();
 	      $postExcert = get_the_excerpt(); ?>
      
-        <article class="<?=$postId; ?>">
-        <img src="<?=get_template_directory_uri(); ?>/images/IMAGE.jpg" />
-        	<a href="<?=$postLink; ?>"><h2><?=$postTitle; ?></h2></a>
-        	<p><?=$postExcert; ?></p>
+        <article data-pid="<?=$postId; ?>" class="post-announce__container">
+        <a class="post" href="<?=$postLink; ?>">
+             <img src="<?=get_template_directory_uri(); ?>/images/IMAGE.jpg" />      
+             <div class="post-text">
+             <h2><?=$postTitle; ?></h2>
+            <p><?=$postExcert; ?></p>
+            </div>
+         </a>
         </article>
 
    <?php endwhile;
